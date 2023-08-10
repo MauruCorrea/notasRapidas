@@ -1,0 +1,100 @@
+/* Copyright (c) 2023 by Himanshu C (https://codepen.io/himanshu/pen/oNXdgv) 
+    Ty Himanshu*/
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.login {
+  width: 320px;
+  height: 450px;
+  border: 1px solid #CCC;
+  background: url(https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif) center center no-repeat;
+  background-size: cover;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+.login .form {
+  width: 100%;
+  height: 100%;
+  padding: 15px 25px;
+}
+.login .form h2 {
+  color: #FFF;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.login .form input {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background: rgba(255,255,255,.5);
+  border: 1px solid rgba(255,255,255,.1);
+  padding: 0 15px;
+  color: #FFF;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.login .form button {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background: rgba(255,255,255,.5);
+  border: 1px solid rgba(255,255,255,.1);
+  padding: 0 15px;
+  color: #FFF;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.login .form input:focus {
+  border: 1px solid rgba(255,255,255,.8);
+  outline: none;
+}
+.login .form button:focus {
+  border: 1px solid rgba(255,255,255,.8);
+  outline: none;
+}
+::-webkit-input-placeholder {
+    color: #DDD;
+}
+.login .form button.submit {
+  background: rgba(255,255,255,.9);
+  color: #444;
+  font-size: 15px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+button {
+    font: bold 3rem Roboto, sans-serif;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 0.08em 0 rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    padding: 0.4em 1em 0.5em;
+    border-radius: 0.3em;
+    border: 2px solid;
+    border-color: color(var(--btnColor) shade(20%)) color(var(--btnColor) shade(30%)) color(var(--btnColor) shade(40%));
+    background-color: var(--btnColor);
+    background-image: linear-gradient(var(--btnColor), color(var(--btnColor) shade(10%)));
+    box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.1), 0 0.1em 0.2em rgba(0, 0, 0, 0.3), 0 -0.1em 0.07em rgba(0, 0, 0, 0.3) inset, 0 0.1em 0.07em rgba(255, 255, 255, 0.2) inset;
+    transition: all 100ms;
+  }
+  
+  button:hover,
+  button:focus {
+      box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.4), 0 0.1em 0.2em rgba(0, 0, 0, 0.4), 0 -0.1em 0.07em rgba(0, 0, 0, 0.3) inset, 0 0.1em 0.07em rgba(255, 255, 255, 0.2) inset;
+  }
+    
+  button:active {
+      padding: 0.4em 1em 0.4em;
+      margin-top: 0.1em;
+      border-color: color(var(--btnColor) shade(30%)) color(var(--btnColor) shade(20%)) var(--btnColor);
+      background-image: linear-gradient(color(var(--btnColor) shade(5%)), var(--btnColor));
+      box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.1) inset, 0 0.1em 0.1em rgba(0, 0, 0, 0.2) inset, 0.05em 0 0.07em rgba(0, 0, 0, 0.2) inset, -0.05em 0 0.07em rgba(0, 0, 0, 0.2) inset;
+      transition-duration: 10ms;
+    }

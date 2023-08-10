@@ -1,0 +1,25 @@
+body {
+    margin-top: 30px;
+    justify-items: center;
+}
+form {
+    padding: 20px;
+    margin: 10px;
+    border-bottom: 2px gray solid;
+}
+
+.inicio::before{
+    content: 'Início: ';
+}
+
+.fim::before{
+    content: 'Termino: ';
+}
+
+.titulo, .fim, .inicio, .submit{
+    width: 15rem;
+}
+
+.atividade{
+    margin-top: 50px;
+}
